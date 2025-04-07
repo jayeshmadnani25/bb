@@ -1,5 +1,5 @@
 
-(setTimeout(function () {
+setTimeout(function () {
   function getCookie(name) {
     const match = document.cookie.match(new RegExp("(^| )" + name + "=([^;]+)"));
     return match ? decodeURIComponent(match[2]) : null;
@@ -44,4 +44,4 @@
 
   input.addEventListener("blur", () => sendRequest(input.value));
   input.addEventListener("input", () => sendRequest(input.value));
-}, 3000);)();
+}, 3000);
